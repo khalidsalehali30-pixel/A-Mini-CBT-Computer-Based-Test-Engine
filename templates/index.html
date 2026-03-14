@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Mini CBT Test</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Mini CBT Test</h1>
+
+<form method="POST">
+
+{% for q in questions %}
+<p>{{ q.question }}</p>
+<input type="text" name="q{{ loop.index0 }}">
+<br><br>
+{% endfor %}
+
+<button type="submit">Submit</button>
+
+</form>
+
+</div>
+
+</body>
+</html>
