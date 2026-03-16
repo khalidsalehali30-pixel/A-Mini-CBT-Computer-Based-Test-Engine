@@ -5,7 +5,7 @@ from datetime import datetime
 app = Flask(__name__)
 
 questions = [
-    {"question": "What is 9 / 3?", "answer": "3"},
+    {"question": "What is 6 - 3?", "answer": "3"},
     {"question": "Capital of Nigeria?", "answer": "abuja"},
     {"question": "HTML stands for?", "answer": "HyperText Markup language"},
     {"question": "What is pwd command?", "answer": "Showing the current location"},
