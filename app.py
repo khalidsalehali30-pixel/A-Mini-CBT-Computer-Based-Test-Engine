@@ -6,7 +6,9 @@ app = Flask(__name__)
 questions = [
     {"question": "What is 9 / 3?", "answer": "3"},
     {"question": "Capital of Nigeria?", "answer": "abuja"},
-    {"question": "HTML stands for?", "answer": "html"}
+    {"question": "HTML stands for?", "answer": "HyperText Markup language"},
+    {"question": "What is pwd command?", "answer": "Showing the current location"},
+    {"question": "which country has more population in Africa?", "answer": "Nigeria"}
 ]
 
 @app.route("/", methods=["GET", "POST"])
