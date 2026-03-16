@@ -1,14 +1,8 @@
 questions = [
-    {
-        "question": "What does CPU stand for?",
-        "answer": "central processing unit"
-    },
-    {
-        "question": "Which language is used for web pages?",
-        "answer": "html"
-    },
-    {
-        "question": "What is 5 + 3?",
-        "answer": "8"
-    }
+    {"question": "What is 9 / 3?", "answer": "3"},
+    {"question": "Capital of Nigeria?", "answer": "Abuja"},
+    {"question": "HTML stands for?", "answer": "HyperText Markup language"},
+    {"question": "What is pwd command?", "answer": "Showing the location"},
+    {"question": "which country has more population in Africa?", "answer": "Nigeria"}
 ]
+  
