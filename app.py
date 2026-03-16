@@ -7,7 +7,7 @@ app = Flask(__name__)
 questions = [
     {"question": "What is 6 - 3?", "answer": "3"},
     {"question": "Capital of Nigeria?", "answer": "abuja"},
-    {"question": "HTML stands for?", "answer": "html"},
+    {"question": "HTML stands for?", "answer": "HyperText Markup Language"},
     {"question": "What is pwd command?", "answer": "Showing the location"},
     {"question": "which country has more population in Africa?", "answer": "Nigeria"}
 ]
